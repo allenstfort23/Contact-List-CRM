@@ -1,0 +1,38 @@
+
+.leftside {
+    background: url(https://blush.design/api/download?shareUri=WyKihve7H83CBVD-&c=Bottom_0%7E393f82-0.1%7E393f82-0.2%7E393f82_Hair_0%7Ee8e1e1-0.1%7E2c1b18-0.2%7E2c1b18_Skin_0%7Eb28b67-0.1%7Eeac7a8-0.2%7E57331f_Top_0%7Effa434-0.1%7E43d26c-0.2%7E43d26c&bg=a4a4d2&w=800&h=800&fm=png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #a3a4d2;
+}
+
+.rightside {
+    background: gray;
+}
+
+// .form-style {
+//     margin: 12rem 10rem;
+
+// }
+.leftside, .rightside {
+    height: 50vh;
+    width: 100%;
+
+}
+
+@media screen and (min-width:768px) {
+    .leftside, .rightside {
+        height: 100vh;
+    }
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  
+    > .col,
+    > [class*="col-"] {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
